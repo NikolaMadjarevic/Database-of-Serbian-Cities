@@ -84,7 +84,7 @@ The generated thematic map displays:
 - **Administrative Context:** Boundary layer of the Republic of Serbia sourced from GeoSrbija.
 - **Cartographic Elements:** Legend, Scale Bar, North Arrow, and Author Metadata.
 
-The QGIS project file (`serbia_cities.qgz`) is included in the repository and contains the configured layers and cartographic layout used to produce the final map.
+The QGIS project file (`cities_serbia.qgz`) is included in the repository and contains the configured layers and cartographic layout used to produce the final map.
 
 ---
 
