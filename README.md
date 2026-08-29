@@ -84,11 +84,11 @@ The generated thematic map displays:
 - **Administrative Context:** Boundary layer of the Republic of Serbia sourced from GeoSrbija.
 - **Cartographic Elements:** Legend, Scale Bar, North Arrow, and Author Metadata.
 
-The QGIS project file (`cities_serbia.qgz`) is included in the repository and contains the configured layers and cartographic layout used to produce the final map.
+The QGIS project file (`serbia_cities.qgz`) is included as the working GIS project used to create the final map.
 
 ---
 
-## 🚀 How to Run / Setup
+### 🚀 How to Run / Setup
 
 ### Prerequisites
 
@@ -102,17 +102,19 @@ CREATE DATABASE "Serbia_cities";
 \c Serbia_cities
 CREATE EXTENSION postgis;
 ```
-Schema Creation & Data Import:
+### Schema Creation & Data Import:
 
 Execute the table creation script or model layout from cities_srb.dbm / pgModeler.
 
 Load dataset records into the cities table (using cities_data.csv).
 
-Connect QGIS:
+### Connect QGIS:
 
 Open QGIS -> Add Layer -> Add PostGIS Layers.
 
 Enter your PostgreSQL connection settings and add the cities geometry table to the canvas.
+
+---
 
 ### 👨‍💻 Author
 
