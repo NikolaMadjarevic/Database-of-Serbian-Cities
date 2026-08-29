@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+CAUTION: Do not modify this file unless you know what you are doing.
+ Unexpected results may occur if the code is changed deliberately.
+-->
+<dbmodel pgmodeler-ver="1.2.3" use-changelog="false" max-obj-count="4"
+	 gen-disabled-objs-code="false" show-sys-schemas-rects="true"
+	 last-position="54,29" last-zoom="1"
+	 default-schema="public" default-owner="postgres"
+	 layers="Default layer"
+	 active-layers="0"
+	 layer-name-colors="#000000"
+	 layer-rect-colors="#b4b4b4"
+	 show-layer-names="false" show-layer-rects="false">
+<database name="Serbia_cities" is-template="false" allow-conns="true">
+</database>
+
+<schema name="public" layers="0" fill-color="#e1e1e1" name-color="#000000" sql-disabled="true">
+</schema>
+
+<table name="cities" layers="0" collapse-mode="2" max-obj-count="8" z-value="0">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="480" y="200"/>
+	<column name="id" not-null="true">
+		<type name="text" length="0"/>
+	</column>
+	<column name="name">
+		<type name="text" length="0"/>
+	</column>
+	<column name="area[square_km]">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="population" not-null="true">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="population_density">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="district">
+		<type name="text" length="0"/>
+	</column>
+	<column name="geom" not-null="true">
+		<type name="geometry" length="0" spatial-type="POINT" variation="0" srid="4326"/>
+	</column>
+	<constraint name="Cities_pk" type="pk-constr" table="public.cities">
+		<columns names="id" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+</dbmodel>
