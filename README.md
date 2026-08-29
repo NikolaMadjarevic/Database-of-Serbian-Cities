@@ -112,6 +112,6 @@ Open QGIS -> Add Layer -> Add PostGIS Layers.
 
 Enter your PostgreSQL connection settings and add the cities geometry table to the canvas.
 
-👨‍💻 Author
+### 👨‍💻 Author
 
 Nikola Mađarević
